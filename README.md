@@ -13,3 +13,6 @@ with the custom attribute EnableCorsCustom.
 This class contains the custom attribute.  It will set the necessary response headers and read the allowed 
 URL's from the web.config.
 The class could be modified to read the URL's from another source, such as a database.
+<br>
+<h4>Seeing it in action</h4>
+To allow the Ajax calls from Test.html to access the Test method in WebAPI2Cors, simply update the web.config with the URL for the TestCors website. Uncomment the key in the appSettings section of the WebAPI2Cors web.config.
